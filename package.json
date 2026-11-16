@@ -1,0 +1,47 @@
+{
+  "name": "es3ex-string",
+  "version": "1.0.0",
+  "description": "Microsoft's amazing ECMAScript 3 String extensions (.blink(), .link(), .bold(), …) for native strings, everywhere.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "sideEffects": true,
+  "scripts": {
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage"
+  },
+  "keywords": [
+    "string",
+    "blink",
+    "link",
+    "bold",
+    "html",
+    "es3",
+    "annex-b",
+    "polyfill",
+    "shim",
+    "jscript",
+    "nostalgia"
+  ],
+  "author": "Peter Higgins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phiggins42/es3ex-string.git"
+  },
+  "bugs": "https://github.com/phiggins42/es3ex-string/issues",
+  "homepage": "https://github.com/phiggins42/es3ex-string#readme",
+  "engines": {
+    "node": ">=14"
+  }
+}
